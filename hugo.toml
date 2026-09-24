@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'NixWire'
+theme = 'PaperMod'
+
+[params]
+  ShowReadingTime = true
+  [params.homeInfoParams]
+    Title = 'Welcome'
+    Content = 'Linux news, networking and how-to tutorials.'
+
+[[menus.main]]
+  name = 'News'
+  pageRef = '/news'
+  weight = 10
+[[menus.main]]
+  name = 'Tutorials'
+  pageRef = '/tutorials'
+  weight = 20
